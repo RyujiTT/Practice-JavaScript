@@ -1,4 +1,4 @@
-//レキシカル環境
+//Environment Record
 let outerFunc = () => {
   let mango = 'mango';
   return () => {
