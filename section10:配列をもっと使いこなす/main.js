@@ -30,3 +30,7 @@ fruits = ['apple', 'orange', 'grape'];
 const newFruits = [...fruits];
 fruits.push('banana');
 console.log(newFruits, fruits);
+
+const yoshipi = ['yoshipi', 20, 'man'];
+let [, , gender] = yoshipi;
+console.log(gender);
